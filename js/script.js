@@ -4,7 +4,7 @@ const $A = (e) => document.querySelectorAll(e);
 (function() {
     'use strict';
 
-    var location = localStorage.location || "new york";
+    var location = localStorage.location || "Israel";
 
     document.body.setAttribute('style', `--accent: ${localStorage.accent || '#76dedf'}`);
 
